@@ -14,7 +14,9 @@ a = int(input('Informe o valor do coeficiente angular da equação de segundo gr
 while a == 0:
     print('O coeficiente angular de uma equação de segundo grau não pode ser nulo.')
     a = int(input('Informe outro valor para o coeficiente angular da equação de segundo grau (a): '))
+
 b = int(input('Informe o valor do coeficiente linear da equação de segundo grau (b): '))
+
 c = int(input('Informe o valor do coeficiente constante da equação de segundo grau: '))
 
 Delta = delta(b, a, c)
